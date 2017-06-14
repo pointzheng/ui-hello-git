@@ -1,0 +1,28 @@
+{
+  "name": "ui-hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zhengyy",
+  "license": "MIT",
+  "dependencies": {
+    "@folio/stripes-components": "^0.8.0",
+    "@folio/stripes-logger": "^0.0.2",
+    "lodas": "^1.2.0",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-router-dom": "^4.1.1"
+  },
+  "stripes": {
+    "type": "app",
+    "displayName": "ui-hello",
+    "route": "/uihello"
+  },
+  "description": "This is an example module created by zhengyy in CALIS ",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
